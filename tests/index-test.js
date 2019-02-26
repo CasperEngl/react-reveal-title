@@ -12,7 +12,7 @@ function Example(props) {
   )
 }
 
-describe('Component', () => {
+describe('RevealTitle', () => {
   let node
 
   beforeEach(() => {
