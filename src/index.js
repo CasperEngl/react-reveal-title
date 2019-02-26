@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { TimelineMax, Expo } from 'gsap';
-import ScrollMagic from 'scrollmagic';
+import ScrollMagic from 'scrollmagic-with-ssr';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
