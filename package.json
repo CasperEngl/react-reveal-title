@@ -1,7 +1,7 @@
 {
-  "name": "react-reveal-title",
+  "name": "@casperengl/react-reveal-title",
   "version": "1.0.0",
-  "description": "react-reveal-title React component",
+  "description": "React Reveal Title",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -19,7 +19,12 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gsap": "^2.1.1",
+    "prop-types": "^15.7.2",
+    "scrollmagic": "^2.0.6",
+    "styled-components": "^4.1.3"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
@@ -28,11 +33,20 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Casper Engelmann",
+  "homepage": "https://github.com/CasperEngl/react-reveal-title",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasperEngl/react-reveal-title.git"
+  },
   "keywords": [
     "react-component"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/CasperEngl/react-reveal-title/issues"
+  },
+  "directories": {
+    "test": "tests"
+  }
 }
